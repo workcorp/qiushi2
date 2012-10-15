@@ -1,0 +1,278 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		82EC1AF5162C067A0072C033 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82EC1AF4162C067A0072C033 /* UIKit.framework */; };
+		82EC1AF7162C067A0072C033 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82EC1AF6162C067A0072C033 /* Foundation.framework */; };
+		82EC1AF9162C067A0072C033 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82EC1AF8162C067A0072C033 /* CoreGraphics.framework */; };
+		82EC1AFF162C067A0072C033 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 82EC1AFD162C067A0072C033 /* InfoPlist.strings */; };
+		82EC1B01162C067A0072C033 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 82EC1B00162C067A0072C033 /* main.m */; };
+		82EC1B05162C067A0072C033 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 82EC1B04162C067A0072C033 /* AppDelegate.m */; };
+		82EC1B07162C067A0072C033 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 82EC1B06162C067A0072C033 /* Default.png */; };
+		82EC1B09162C067A0072C033 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 82EC1B08162C067A0072C033 /* Default@2x.png */; };
+		82EC1B0B162C067A0072C033 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 82EC1B0A162C067A0072C033 /* Default-568h@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		82EC1AF0162C067A0072C033 /* qiushi2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = qiushi2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		82EC1AF4162C067A0072C033 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		82EC1AF6162C067A0072C033 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		82EC1AF8162C067A0072C033 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		82EC1AFC162C067A0072C033 /* qiushi2-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "qiushi2-Info.plist"; sourceTree = "<group>"; };
+		82EC1AFE162C067A0072C033 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		82EC1B00162C067A0072C033 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		82EC1B02162C067A0072C033 /* qiushi2-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "qiushi2-Prefix.pch"; sourceTree = "<group>"; };
+		82EC1B03162C067A0072C033 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		82EC1B04162C067A0072C033 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		82EC1B06162C067A0072C033 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		82EC1B08162C067A0072C033 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		82EC1B0A162C067A0072C033 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		82EC1AED162C067A0072C033 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82EC1AF5162C067A0072C033 /* UIKit.framework in Frameworks */,
+				82EC1AF7162C067A0072C033 /* Foundation.framework in Frameworks */,
+				82EC1AF9162C067A0072C033 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		82EC1AE5162C06790072C033 = {
+			isa = PBXGroup;
+			children = (
+				82EC1AFA162C067A0072C033 /* qiushi2 */,
+				82EC1AF3162C067A0072C033 /* Frameworks */,
+				82EC1AF1162C067A0072C033 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		82EC1AF1162C067A0072C033 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				82EC1AF0162C067A0072C033 /* qiushi2.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		82EC1AF3162C067A0072C033 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				82EC1AF4162C067A0072C033 /* UIKit.framework */,
+				82EC1AF6162C067A0072C033 /* Foundation.framework */,
+				82EC1AF8162C067A0072C033 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		82EC1AFA162C067A0072C033 /* qiushi2 */ = {
+			isa = PBXGroup;
+			children = (
+				82EC1B03162C067A0072C033 /* AppDelegate.h */,
+				82EC1B04162C067A0072C033 /* AppDelegate.m */,
+				82EC1AFB162C067A0072C033 /* Supporting Files */,
+			);
+			path = qiushi2;
+			sourceTree = "<group>";
+		};
+		82EC1AFB162C067A0072C033 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				82EC1AFC162C067A0072C033 /* qiushi2-Info.plist */,
+				82EC1AFD162C067A0072C033 /* InfoPlist.strings */,
+				82EC1B00162C067A0072C033 /* main.m */,
+				82EC1B02162C067A0072C033 /* qiushi2-Prefix.pch */,
+				82EC1B06162C067A0072C033 /* Default.png */,
+				82EC1B08162C067A0072C033 /* Default@2x.png */,
+				82EC1B0A162C067A0072C033 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		82EC1AEF162C067A0072C033 /* qiushi2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 82EC1B0E162C067A0072C033 /* Build configuration list for PBXNativeTarget "qiushi2" */;
+			buildPhases = (
+				82EC1AEC162C067A0072C033 /* Sources */,
+				82EC1AED162C067A0072C033 /* Frameworks */,
+				82EC1AEE162C067A0072C033 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = qiushi2;
+			productName = qiushi2;
+			productReference = 82EC1AF0162C067A0072C033 /* qiushi2.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		82EC1AE7162C06790072C033 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = workcorp;
+			};
+			buildConfigurationList = 82EC1AEA162C06790072C033 /* Build configuration list for PBXProject "qiushi2" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 82EC1AE5162C06790072C033;
+			productRefGroup = 82EC1AF1162C067A0072C033 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				82EC1AEF162C067A0072C033 /* qiushi2 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		82EC1AEE162C067A0072C033 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82EC1AFF162C067A0072C033 /* InfoPlist.strings in Resources */,
+				82EC1B07162C067A0072C033 /* Default.png in Resources */,
+				82EC1B09162C067A0072C033 /* Default@2x.png in Resources */,
+				82EC1B0B162C067A0072C033 /* Default-568h@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		82EC1AEC162C067A0072C033 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82EC1B01162C067A0072C033 /* main.m in Sources */,
+				82EC1B05162C067A0072C033 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		82EC1AFD162C067A0072C033 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				82EC1AFE162C067A0072C033 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		82EC1B0C162C067A0072C033 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		82EC1B0D162C067A0072C033 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		82EC1B0F162C067A0072C033 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "qiushi2/qiushi2-Prefix.pch";
+				INFOPLIST_FILE = "qiushi2/qiushi2-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		82EC1B10162C067A0072C033 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "qiushi2/qiushi2-Prefix.pch";
+				INFOPLIST_FILE = "qiushi2/qiushi2-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		82EC1AEA162C06790072C033 /* Build configuration list for PBXProject "qiushi2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82EC1B0C162C067A0072C033 /* Debug */,
+				82EC1B0D162C067A0072C033 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		82EC1B0E162C067A0072C033 /* Build configuration list for PBXNativeTarget "qiushi2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82EC1B0F162C067A0072C033 /* Debug */,
+				82EC1B10162C067A0072C033 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 82EC1AE7162C06790072C033 /* Project object */;
+}
